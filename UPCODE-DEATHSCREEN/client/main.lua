@@ -38,7 +38,7 @@ Citizen.CreateThread(function()
         if Configuration.Framework == 'esx' then 
             playerJobName = ESX.PlayerData.job.name
         else
-            playerJobName = PlayerData.job.name
+            playerJobName = QBCore.PlayerData.job
         end
 
         if playerJobName == "ambulance" then
